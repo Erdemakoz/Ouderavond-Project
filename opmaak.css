@@ -1,0 +1,27 @@
+body{
+background-color: #CCCCCC
+}
+
+h1{
+ color: aqua; 
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 34px;
+}
+
+
+p{
+color: black;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+ font-size:  14px;
+}
+
+#tekst1
+{
+ color: blue;
+}
+
+.teksten
+{
+color: cadetblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
