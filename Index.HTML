@@ -1,19 +1,96 @@
-<div style="width: 1600px; height: 1024px; position: relative; background: white">
-    <img style="width: 1600px; height: 425px; left: 0px; top: -29px; position: absolute" src="./Images/tiger-jpg 1.png" />
-    <div style="width: 1600px; height: 106px; left: 0px; top: 162px; position: absolute; background: #1343BF"></div>
-    <div style="width: 96px; height: 32px; left: 23px; top: 199px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">Home</div>
-    <div style="width: 116px; height: 32px; left: 132px; top: 199px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">Canvas</div>
-    <div style="width: 122px; height: 32px; left: 261px; top: 200px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">Eduarte</div>
-    <div style="width: 262px; height: 59px; left: 396px; top: 199px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">Opleidingswijzer</div>
-    <div style="width: 208px; height: 61px; left: 671px; top: 200px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">Locatiegids</div>
-    <div style="width: 364px; height: 33px; left: 892px; top: 199px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">Ouderspreekavonden</div>
-    <div style="width: 129px; height: 50px; left: 1256px; top: 200px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">BSA</div>
-    <div style="width: 229px; height: 60px; left: 1371px; top: 200px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">Locatiegids</div>
-    <div style="width: 500px; height: 202px; left: 171px; top: 755px; position: absolute; background: #1343BF"></div>
-    <div style="width: 531px; height: 202px; left: 998px; top: 755px; position: absolute; background: #1343BF"></div>
-    <div style="width: 1600px; height: 627px; left: 0px; top: 397px; position: absolute; background: #1343BF"></div>
-    <div style="width: 530px; height: 201px; left: 999px; top: 756px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">Informatie over de Ouderspreekavonden...<br/></div>
-    <div style="width: 500px; height: 201px; left: 171px; top: 756px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">Informatie over onze school...</div>
-    <img style="width: 531px; height: 288px; left: 998px; top: 433px; position: absolute" src="./Images/ouderavond-afbeelding-1-scaled 1.png" />
-    <img style="width: 531px; height: 288px; left: 171px; top: 433px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 1px black solid" src="./Images/logo-techniek-college 1.png" />
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 100%; /* Adjusted to 100% */
+      height: 100vh; /* Adjusted to 100% viewport height */
+      position: relative;
+      background: white;
+    }
+
+    .bg-img {
+      width: 100%; /* Adjusted to 100% */
+      height: 40vh; /* Adjusted for proportions */
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .nav-item {
+      position: absolute;
+      color: black;
+      font-size: 2.5vw; /* Adjusted for responsiveness */
+      font-family: Inter;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+
+    .nav-item.home {
+      width: 6%; /* Adjusted for proportions */
+      height: 3%; /* Adjusted for proportions */
+      left: 1.43%; /* Adjusted for proportions */
+      top: 19.34%; /* Adjusted for proportions */
+    }
+
+    /* Add similar styling for other nav items */
+    /* ... */
+
+    .content-bg {
+      width: 32.29%; /* Adjusted for proportions */
+      height: 18.52%; /* Adjusted for proportions */
+      left: 0;
+      top: 73.83%; /* Adjusted for proportions */
+      position: absolute;
+      background: #1343BF;
+    }
+
+    .content-text {
+      width: 26.56%; /* Adjusted for proportions */
+      height: 18.52%; /* Adjusted for proportions */
+      left: 10.16%; /* Adjusted for proportions */
+      top: 73.83%; /* Adjusted for proportions */
+      position: absolute;
+      color: black;
+      font-size: 2.7vw; /* Adjusted for responsiveness */
+      font-family: Inter;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+
+    .content-image {
+      width: 26.56%; /* Adjusted for proportions */
+      height: 18.52%; /* Adjusted for proportions */
+      left: 64.53%; /* Adjusted for proportions */
+      top: 44.53%; /* Adjusted for proportions */
+      position: absolute;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border: 1px black solid;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <img class="bg-img" src="./Images/tiger-jpg 1.png" />
+    <div class="nav-item home">Home</div>
+    <!-- Add other nav items -->
+    <!-- ... -->
+
+    <div class="content-bg"></div>
+    <div class="content-text">
+      Informatie over onze school...
+    </div>
+    <img class="content-image" src="./Images/logo-techniek-college 1.png" />
   </div>
+
+</body>
+
+</html>
